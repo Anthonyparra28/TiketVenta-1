@@ -1,0 +1,24 @@
+{
+  "name": "tiketventa-backend",
+  "version": "1.0.0",
+  "description": "TicketVenta1 express server",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "npx nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Puppetmaster",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "sequelize-cli": "^6.6.0"
+  }
+}
