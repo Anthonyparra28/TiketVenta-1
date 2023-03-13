@@ -79,3 +79,20 @@ body{
 .login-box a:hover{
     color: #fff
 }
+
+main nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main nav div a img{
+    width: 240px;
+    height: 61px;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+main{
+    background-color: black;
+}
